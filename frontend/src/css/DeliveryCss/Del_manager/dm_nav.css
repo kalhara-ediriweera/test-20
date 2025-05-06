@@ -1,0 +1,134 @@
+/* General styles for the sidebar */
+#sidebar {
+  width: 270px;
+  height: 100%;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  transition: all 0.3s ease;
+}
+
+#sidebar-header {
+  padding: 20px;
+  background-color: #444;
+  color: #fff;
+  height: 100px;
+  text-align: center;
+}
+
+#sidebar-header h1 img {
+  position: relative;
+  width: 150px;
+}
+
+/* Navigation Styling */
+#nav {
+  flex-grow: 1;
+  padding: 20px 0;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav ul li {
+  padding: 10px 20px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+#nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  font-family: "Arial", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effects */
+#nav ul li:hover {
+  background-color: #575757;
+  cursor: pointer;
+}
+
+#nav ul li a:hover {
+  color: #ffcc00;
+  transform: translateX(10px);
+}
+
+/* Active link styling */
+#nav ul li a.active {
+  color: #ffcc00;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#icon-name {
+  margin-left: 70px;
+}
+#name-box {
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+}
+
+#name-box h3{
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+#nav li:last-child {
+  align-items: center;
+  margin-top: 100%;
+  width: 150px;
+}
+
+#nav li:last-child h3 {
+  color: #ffffff;
+}
+
+#nav li:last-child:hover {
+  background-color: transparent;
+}
+
+#logout-btn {
+  margin-top: 10px;
+  margin-left: 40px;
+  padding: 10px 18px;
+  width: 120px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: rgb(192, 57, 23);
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Main Content (body of the page) */
+#main-content {
+  display: flex;
+  height: 100vh; /* Ensures the main content stretches the full height of the viewport */
+  margin-left: 250px; /* Offsets content to make space for sidebar */
+}
+
+/* Sub-content (where the Outlet component will appear) */
+#sub-content {
+  flex-grow: 1; /* Makes sub-content fill the remaining space */
+  overflow-y: auto; /* Adds scroll to sub-content if it overflows */
+  padding: 20px; /* Adds padding around content */
+  background-color: #e8ebeb; /* Optional background color */
+  margin-left: 20px; /* Optional spacing between sidebar and content */
+}

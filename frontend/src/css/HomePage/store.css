@@ -1,0 +1,84 @@
+.store-head {
+  background-image: url("../../assets/images/graphics/stacked-waves-haikei.svg");
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-family: "Unbounded", serif;
+}
+
+.store-options {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+
+.store-options input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  max-width: 300px;
+}
+
+.store-options select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.store-options select:hover {
+  border-color: #20bf40;
+}
+
+.store-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+  gap: 40px; /* Space between items */
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.store-item {
+  max-width: 350px;
+  height: 340px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+  gap: 5px;
+  font-size: large;
+  background-color: aliceblue;
+  filter: drop-shadow(-4px -1px 10px #1e7a2e);
+  border-radius: 20px;
+}
+
+.store-item:hover {
+  filter: drop-shadow(-4px -1px 10px #4caa5b);
+}
+
+.item-image {
+  width: 150px;
+  height: 150px;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.item-price {
+  color: #2a8a80;
+  font-weight: 500;
+}

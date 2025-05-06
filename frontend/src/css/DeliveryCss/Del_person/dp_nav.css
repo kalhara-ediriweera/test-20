@@ -1,0 +1,46 @@
+#delivery-sidebar {
+  width: 270px;
+  background-color: #2c3e50;
+  height: 100vh;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+#delivery-sidebar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#delivery-sidebar-title {
+  font-size: 24px;
+}
+
+#delivery-sidebar-menu {
+  list-style-type: none;
+}
+
+#delivery-sidebar-menu li {
+  margin: 15px 0;
+}
+
+#delivery-sidebar-menu li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#delivery-sidebar-menu li a:hover {
+  background-color: #34495e;
+}
+
+/* Main content */
+#delivery-main-content {
+  margin-left: 270px; /* Space for sidebar */
+  padding: 20px;
+}

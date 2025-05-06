@@ -1,0 +1,99 @@
+.home-nav {
+  position: absolute;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.8229341907661503) 100%
+  );
+  width: 100vw;
+  height: 70px;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  font-family: "Outfit", serif;
+}
+
+.home-nav ul {
+  display: flex;
+  color: white;
+  gap: 20px;
+  list-style: none;
+}
+
+.logo {
+  width: 150px;
+}
+
+.log-in {
+  background-color: rgba(50, 214, 121, 0.579);
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Outfit", serif;
+}
+
+.log-out {
+  background-color: rgba(231, 46, 17, 0.86);
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Outfit", serif;
+}
+
+.log-in:hover {
+  animation: ease-out 1ms;
+  background-color: rgba(50, 214, 121, 0.697);
+}
+
+.nav-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-c {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.nav-c h3 {
+  pointer-events: auto;
+}
+
+.white {
+  text-decoration: none;
+  color: white;
+}

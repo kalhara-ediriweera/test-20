@@ -1,0 +1,60 @@
+#delivery-dashboard {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#delivery-dashboard th,
+#delivery-dashboard td {
+  padding: 12px;
+  text-align: left;
+}
+
+#delivery-dashboard th {
+  background-color: #4caf50;
+  color: white;
+}
+
+#delivery-dashboard td {
+  border-bottom: 1px solid #ddd;
+}
+
+#delivery-dashboard tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#delivery-dashboard tr:hover {
+  background-color: #ddd;
+}
+
+/* Row specific styles */
+#row1 {
+  background-color: #e0f7fa;
+}
+
+#row2 {
+  background-color: #fff3e0;
+}
+
+#row3 {
+  background-color: #f1f8e9;
+}
+
+#status-col {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#status-col.Pending {
+  color: orange;
+}
+
+#status-col.Completed {
+  color: green;
+}
+
+#status-col.Cancelled {
+  color: red;
+}

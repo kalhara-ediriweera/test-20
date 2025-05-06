@@ -1,0 +1,151 @@
+.smart-farming {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 600px;
+}
+
+.smart-heading {
+    font-family: Roboto;
+    padding-bottom: 20px;
+}
+
+.smart-farming-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 450px;
+    overflow: auto;  /* Enables scrolling */
+    padding: 10px;  /* Optional: Adds some spacing inside */
+}
+
+
+.smart-item {
+    background-color: rgb(170, 235, 170);
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    cursor: pointer;
+    animation: fadeIn 1s ease-in; 
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.smart-item:hover {
+    background-color: rgb(128, 237, 128);
+    transform: scale(1.03);
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+.smart-area {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.smart-name {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.smart-farming-details {
+    font-family: Roboto;
+    margin: auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.smart-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+
+}
+
+.smart-item-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    align-content: center;
+}
+
+.smart-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.smart-form select,
+.smart-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.area-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.area-inputs input {
+    flex: 1;
+}
+
+.add-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-btn:hover {
+    background: #45a049;
+}
+
+.del-btn {
+    margin-top: 10px;
+    padding: 10px;
+    background: #af4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.del-btn:hover {
+    background: #a04545;
+}
+
+.btn-anime {
+    animation: fadeIn 1s ease-in; 
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    
+}

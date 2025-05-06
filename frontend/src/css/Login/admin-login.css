@@ -1,0 +1,90 @@
+.admin-login form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 100px;
+  height: 100vh;
+  width: max-content;
+  background-color: #0d1e2e;
+}
+
+.admin-login {
+  display: flex;
+  color: white;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.admin-login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/graphics/pxfuel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: scaleX(-1);
+  z-index: -1;
+}
+
+.admin-login-form {
+  font-family: "Outfit", serif;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 30px;
+}
+
+.a-login-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: transparent;
+}
+
+.a-login-input {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgb(109, 109, 251);
+  color: white;
+}
+
+.a-log-in-btn {
+  font-family: "Outfit", serif;
+  width: 100%;
+  height: 40px;
+  background-color: #0fa962;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.a-login-heading {
+  font-size: 2rem;
+}
+
+.admin-form-actions {
+  color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: #1e2a38 !important;
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px #1e2a38 inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.green {
+  color: #0fa962;
+  text-decoration: none;
+}

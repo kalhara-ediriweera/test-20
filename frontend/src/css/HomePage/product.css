@@ -1,0 +1,74 @@
+.prd-head {
+   background-image: url('../../assets/images/graphics/stacked-waves-haikei1.svg');
+   background-size: cover;
+    height: 200px;
+
+}
+
+.prd-body {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    
+}
+
+.right {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prd-name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.prd-price {
+    font-size: 20px;
+    color: #ff5722;
+    margin-bottom: 10px;
+}
+
+.prd-category {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.prd-stock {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.prd-qty input {
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-add-to-cart {
+    padding: 12px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.prd-img {
+    max-width: 300px;
+}

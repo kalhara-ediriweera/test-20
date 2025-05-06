@@ -1,0 +1,112 @@
+.dash {
+    display: flex;
+}
+
+
+
+.a-nav {
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    background-color: #252C48;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-a {
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.a-nav ul {
+    list-style: none;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#login-btn{
+    font-size: large;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: #525f96;
+    border: none;
+}
+
+#login-btn:hover{
+    background-color: #7183d0;
+}
+
+.a-nav-link {
+    border: 1px solid white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    
+    font-family: "Outfit", serif;
+}
+
+.a-nav-link:hover {
+    background-color: rgba(119, 123, 175, 0.324);
+}
+
+.text-none {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-head {
+    font-family: "Outfit", serif;
+    color: white;
+    font-size: 1rem;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#mainManger{
+    height: 100vh;
+    display: flex;
+}
+
+.admin-dash-heading {
+    font-family: "Outfit", serif;
+    padding: 40px;
+    color: #252C48;
+}
+
+.summary-section {
+    display: flex;
+    gap: 20px;
+    padding-left: 10px;
+}
+
+.summary-item {
+    background: linear-gradient(90deg, rgba(47,183,134,1) 0%, rgba(88,198,121,1) 100%);
+    margin: 10px;
+    min-width: 250px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", serif;
+    color: white;
+    font-size: 1rem;
+    border-radius: 30px;
+}
+
+.s-name {
+    font-size: 1.5rem;
+    font-weight: 600; 
+}
+.s-amount {
+    font-size: 2rem;
+    font-weight: 600;
+}
